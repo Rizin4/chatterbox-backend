@@ -9,7 +9,7 @@ public class WebConfig implements WebMvcConfigurer {
 	@Override
     public void addCorsMappings(CorsRegistry registry) {
         registry.addMapping("/**")
-                .allowedOrigins("http://localhost:4200", "https://chatterbox-frontend.vercel.app")
+                .allowedOrigins("http://localhost:4200", "https://chatterbox-frontend-phi.vercel.app")
                 .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS");
     }
 	
